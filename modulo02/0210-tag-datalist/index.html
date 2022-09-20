@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tag datalist</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article>
+
+    <section aria-label="video">
+      <video width="320" height="240" controls>
+        <source src="./assets/video/cidade.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section aria-label="audio">
+      <audio controls>
+        <source src="./assets/audio/music.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <section aria-label="figura">
+      <figure>
+        <img src="./assets/img/ricefield.jpg" alt="Figura de campo de arroz">
+        <figcaption>Figura de campo de arroz</figcaption>
+      </figure>
+    </section>
+
+    <div>
+      <p contenteditable="true">Este é um paragrafo que pode ser editado</p>
+    </div>
+  </article>
+
+  <aside>
+    <div>
+      <form>
+        <label>Nome:</label> <input type="text" name="name" required placeholder="digite seu nome" autofocus> <br>
+        <label>Email:</label>
+        <input type="email" required name="email" placeholder="digite seu email">
+        <br>
+        <input type="submit" name="enviar">
+      </form>
+    </div>
+  </aside>
+
+  <br>
+  <br>
+
+  <div>
+    <details open="open">
+      <summary>Cachorro</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non consequatur culpa perspiciatis impedit maxime inventore libero, similique rem consectetur quos aut dolores ipsam velit esse tempora minus odit ipsum!</p>
+    </details>
+    <details>
+      <summary>Gato</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non consequatur culpa perspiciatis impedit maxime inventore libero, similique rem consectetur quos aut dolores ipsam velit esse tempora minus odit ipsum!</p>
+    </details>
+    <details>
+      <summary>Tartaruga</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non consequatur culpa perspiciatis impedit maxime inventore libero, similique rem consectetur quos aut dolores ipsam velit esse tempora minus odit ipsum!</p>
+    </details>
+    <details>
+      <summary>Papagaio</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non consequatur culpa perspiciatis impedit maxime inventore libero, similique rem consectetur quos aut dolores ipsam velit esse tempora minus odit ipsum!</p>
+    </details>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br> <br>
+  <br> <br>
+  <br> <br>
+  <br> <br>
+  <br> <br>
+  <br> <br>
+  <br> <br>
+  <br> <br>
+  <br>
+  <div>
+    <form>
+      <input list="animais" name="animal">
+      <datalist id="animais">
+        <option value="cachorro"></option>
+        <option value="gato"></option>
+        <option value="cavalo"></option>
+        <option value="papagaio"></option>
+      </datalist>
+    </form>
+  </div>
+
+  <footer>
+    <p>Todos os direitos Reservados</p>
+  </footer>
+</body>
+
+</html>
