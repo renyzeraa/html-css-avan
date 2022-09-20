@@ -25,6 +25,10 @@ Curso HTML5 e CSS3 Técnicas Avançadas - Mateus Battisti (Hora de Codar)
 
 - [ ] Introdução a animações CSS3
 - [ ] Keyframes to/from , 0%/100%
+- [ ] Vários passos nas animações
+- [ ] Animações delay e iterations
+- [ ] Animações timing functions
+- [ ] Animações shorthand
 
 ### Contato
 
