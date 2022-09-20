@@ -10,7 +10,20 @@ Curso HTML5 e CSS3 Técnicas Avançadas - Mateus Battisti (Hora de Codar)
 
 ### Modulo 2
 
-- [ ] In progress...
+- [ ] Tag vídeo
+- [ ] Tag audio
+- [ ] Tag figure
+- [ ] novas tags forms
+- [ ] Atributo input
+- [ ] Atributo contenteditable
+- [ ] HTML Semântico
+- [ ] Tag Detail e Summary
+- [ ] Tag datalist
+- [ ] Tag progress (tipo um barra de loading)
+
+### Modulo 3
+
+- [ ] Introdução a animações CSS3
 
 ### Contato
 

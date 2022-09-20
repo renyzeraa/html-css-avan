@@ -1,0 +1,26 @@
+/* 02 */
+.animation-div {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation: animation1 5s;
+}
+
+@keyframes animation1 {
+  to {
+    background-color: red;
+  }
+
+  from {
+    background-color: yellow;
+  }
+}
+
+/* 03 */
+
+.animation-div2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation: animation1 5s;
+}
