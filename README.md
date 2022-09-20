@@ -29,6 +29,8 @@ Curso HTML5 e CSS3 Técnicas Avançadas - Mateus Battisti (Hora de Codar)
 - [ ] Animações delay e iterations
 - [ ] Animações timing functions
 - [ ] Animações shorthand
+- [ ] Propriedade transition
+- [ ] Propriedade calc
 
 ### Contato
 
