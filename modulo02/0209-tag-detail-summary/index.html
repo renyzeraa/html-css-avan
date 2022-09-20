@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tag details e summary</title>
+</head>
+
+<body>
+
+  <!-- tag header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- tag article -->
+  <article>
+
+    <section aria-label="video">
+      <video width="320" height="240" controls>
+        <source src="./assets/video/cidade.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section aria-label="audio">
+      <audio controls>
+        <source src="./assets/audio/music.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <section aria-label="figura">
+      <figure>
+        <img src="./assets/img/ricefield.jpg" alt="Figura de campo de arroz">
+        <figcaption>Figura de campo de arroz</figcaption>
+      </figure>
+    </section>
+
+    <div>
+      <p contenteditable="true">Este é um paragrafo que pode ser editado</p>
+    </div>
+  </article>
+
+  <!-- tag aside -->
+  <aside>
+    <div>
+      <form>
+        <label>Nome:</label>
+        <!--  autofocus para iniciar com o cursor ali -->
+        <input type="text" name="name" required placeholder="digite seu nome" autofocus> <br>
+        <!-- campo tipo email pedindo email valido -->
+        <label>Email:</label>
+        <input type="email" required name="email" placeholder="digite seu email">
+        <br>
+        <input type="submit" name="enviar">
+      </form>
+    </div>
+  </aside>
+  <br>
+  <br>
+
+  <!-- tag details e summary -->
+  <div>
+    <details open="open">
+      <summary>Cachorro</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non consequatur culpa perspiciatis impedit maxime inventore libero, similique rem consectetur quos aut dolores ipsam velit esse tempora minus odit ipsum!</p>
+    </details>
+    <details>
+      <summary>Gato</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non consequatur culpa perspiciatis impedit maxime inventore libero, similique rem consectetur quos aut dolores ipsam velit esse tempora minus odit ipsum!</p>
+    </details>
+    <details>
+      <summary>Tartaruga</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non consequatur culpa perspiciatis impedit maxime inventore libero, similique rem consectetur quos aut dolores ipsam velit esse tempora minus odit ipsum!</p>
+    </details>
+    <details>
+      <summary>Papagaio</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non consequatur culpa perspiciatis impedit maxime inventore libero, similique rem consectetur quos aut dolores ipsam velit esse tempora minus odit ipsum!</p>
+    </details>
+  </div>
+
+  <!-- Tag footer -->
+  <footer>
+    <p>Todos os direitos Reservados</p>
+  </footer>
+</body>
+
+</html>
