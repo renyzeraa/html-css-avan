@@ -1,0 +1,270 @@
+/* aula 02 */
+.animation-div {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation: animation1 5s;
+}
+
+@keyframes animation1 {
+  to {
+    background-color: red;
+  }
+
+  from {
+    background-color: yellow;
+  }
+}
+
+/* aula 03 */
+
+@keyframes animation2 {
+  0% {
+    background-color: green;
+  }
+
+  30% {
+    background-color: #00fff2;
+    width: 440px;
+  }
+  50% {
+    width: 500px;
+  }
+
+  70% {
+    width: 700px;
+  }
+
+  100% {
+    background-color: #ea00ff;
+  }
+}
+
+.animation-div2 {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  animation: animation2 3s;
+}
+
+/* aula 04 */
+
+@keyframes animation3 {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 200px;
+    background-color: green;
+  }
+}
+
+.animation-div3 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  animation-name: animation3;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  position: relative;
+  animation-iteration-count: 3;
+}
+
+/* aula 05 */
+
+h1 {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+@keyframes animation4 {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 500px;
+  }
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  position: relative;
+  animation-name: animation4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#animation-div4 {
+  animation-timing-function: linear;
+}
+#animation-div5 {
+  animation-timing-function: ease;
+}
+#animation-div6 {
+  animation-timing-function: ease-in;
+}
+#animation-div7 {
+  animation-timing-function: ease-out;
+}
+#animation-div8 {
+  animation-timing-function: ease-in-out;
+}
+
+/* aula 06 */
+
+#id9 {
+  margin-top: 40px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+@keyframes animation5 {
+  0% {
+    left: 0;
+  }
+
+  25% {
+    left: 20px;
+  }
+  50% {
+    left: 60px;
+    background-color: #ff0000;
+  }
+  75% {
+    left: 120px;
+    background-color: #ff7b00;
+  }
+  100% {
+    left: 50px;
+    background-color: #00fff2;
+  }
+}
+/* shorthand animation: 
+name, 
+duration, 
+timing-function , 
+delay, 
+iteration */
+#animation-div9 {
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+  animation: animation5 3s linear 2s infinite;
+  position: relative;
+}
+
+/* aula 07 */
+
+.btn {
+  display: block;
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+  width: 150px;
+  height: 75px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #333;
+  border: 1px solid #333;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.btn:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+.transition {
+  margin-top: 30px;
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  transition: 4s;
+}
+
+.transition:hover {
+  width: 800px;
+}
+
+/* aula 08 */
+
+.div-calc {
+  height: 400px;
+  width: 500px;
+  position: relative;
+  margin: 20px;
+  background-color: #ddd;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+.innerdiv-calc {
+  height: 50px;
+  position: relative;
+  background-color: red;
+  margin: 10px;
+}
+.calc1 {
+  width: calc(50% + 50px);
+}
+.calc2 {
+  width: calc(50% - 50px);
+}
+.calc3 {
+  margin: 0;
+  width: calc(50% * 2);
+}
+.calc4 {
+  width: calc(50% / 2);
+}
+
+/* aula 09 */
+
+.gradient-box {
+  width: 500px;
+  height: 200px;
+  position: relative;
+  margin: 20px;
+}
+
+.gradient1 {
+  background: linear-gradient(purple, blue);
+}
+.gradient2 {
+  background: linear-gradient(to right, purple, blue);
+}
+.gradient3 {
+  background: linear-gradient(to left, purple, blue);
+}
+.gradient4 {
+  background: linear-gradient(to top, purple, blue);
+}
+.gradient5 {
+  background: linear-gradient(to top right, purple, green);
+}
+.gradient6 {
+  background: linear-gradient(blue, yellow, black, red);
+}
+
+/*  aula 10 */
+
+.gradientR1 {
+  background: radial-gradient(#3a3042, #ff0000, #ff7b00);
+}
+.gradientR2 {
+  background: radial-gradient(#3a3042 40%, #ff0000 20%, #ff7b00);
+}
+.gradientR3 {
+  background: radial-gradient(circle, #3a3042 40%, #ff0000 20%, #ff7b00);
+}
+.gradientR4 {
+  background: radial-gradient(blue, yellow, black, red);
+}
+.gradientR5 {
+  background: radial-gradient(to right, blue, yellow, black, red);
+}
