@@ -1,0 +1,12 @@
+.sessao-sobre {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 40px;
+}
+
+#sobre .sessao-texto {
+  grid-column: 1/2;
+}
+#sobre .sessao-banner {
+  grid-column: 2/-1;
+}

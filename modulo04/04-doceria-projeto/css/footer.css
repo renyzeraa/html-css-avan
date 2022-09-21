@@ -1,5 +1,4 @@
 footer {
-  margin-top: 240px;
-  padding: 40px 40px 10px;
-  background-color: #ccc;
+  text-align: center;
+  margin: 240px auto 20px;
 }
