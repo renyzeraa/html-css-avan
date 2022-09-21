@@ -1,0 +1,35 @@
+/*
+	
+	Resumo de Flex Box:
+
+	display: flex; - inicia o flex no container
+	flex-grow - da tamanho ao elemento preenchendo os espaços vazios
+
+*/
+
+body {
+  background-color: #ddd;
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.first {
+  background-color: red;
+}
+
+.second {
+  background-color: green;
+  flex-grow: 1;
+}
+
+.third {
+  background-color: blue;
+  flex-grow: 1;
+}
