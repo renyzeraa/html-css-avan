@@ -38,7 +38,11 @@ Curso HTML5 e CSS3 Técnicas Avançadas - Mateus Battisti (Hora de Codar)
 
 ### Modulo 4
 
-## <a href=""> DEPLOY - Projeto Doceria </a>
+## <a href="https://renyzeraa.github.io/html-css-avan/modulo04/04-doceria-projeto"> DEPLOY - Projeto Doceria </a>
+
+### Modulo 5
+
+## <a href="https://renyzeraa.github.io/html-css-avan/modulo05/"> DEPLOY </a>
 
 ### Contato
 
