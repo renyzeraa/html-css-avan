@@ -1,0 +1,48 @@
+.dominio-bg {
+  background-color: rgb(22, 22, 48);
+  color: white;
+  display: flex;
+}
+
+.dominio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.dominio h1 {
+  margin-bottom: 20px;
+  font-size: 38px;
+}
+
+.dominio p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(156, 155, 155);
+}
+
+.dominio input {
+  padding: 18px 20px;
+  flex-grow: 1;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.dominio a {
+  padding: 20px;
+  background-color: rgb(77, 167, 137);
+  max-width: max-content;
+  margin: 0 auto;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.dominio a:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: rgb(77, 167, 137);
+}

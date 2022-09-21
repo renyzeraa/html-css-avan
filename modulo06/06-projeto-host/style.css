@@ -1,5 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import './css/global.css';
+@import './css/header.css';
+@import './css/home.css';
+@import './css/vantagem.css';
+@import './css/planos.css';
+@import './css/dominio.css';
+@import './css/contato.css';
+@import './css/footer.css';

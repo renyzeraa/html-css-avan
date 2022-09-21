@@ -1,0 +1,31 @@
+.vantagens-card {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  justify-content: center;
+}
+
+.vantagens-card li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.vantagens-card li i {
+  font-size: 60px;
+}
+.fa-shield-halved {
+  color: green;
+}
+.fa-rocket {
+  color: orange;
+}
+.fa-comments {
+  color: brown;
+}
+
+.vantagens-card li p {
+  color: gray;
+  text-align: center;
+}
