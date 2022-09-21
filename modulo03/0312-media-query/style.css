@@ -270,13 +270,11 @@ iteration */
 }
 
 /*  aula 12 */
-
 .mediaquery {
   width: 1200px;
   height: 500px;
   background-color: #333;
 }
-
 @media (max-width: 1200px) {
   .mediaquery {
     width: 900px;
