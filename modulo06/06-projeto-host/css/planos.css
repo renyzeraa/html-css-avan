@@ -23,6 +23,7 @@
 .planos-card {
   background-color: rgb(230, 230, 230);
   width: 200px;
+  margin-top: 40px;
 }
 
 .planos-card h1 {
