@@ -4,11 +4,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
   <title>Projeto Doceria</title>
 </head>
 
 <body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="aside">
+        <img src="./img/stand.png" alt="Logo Doceria">
+        <h1>Doceria</h1>
+        <nav>
+          <ul>
+            <li><a href="#bemvindo">Bem vindo</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#doces1">Doces 1</a></li>
+            <li><a href="#doces2">Doces 2</a></li>
+            <li><a href="#doces3">Doces 3</a></li>
+            <li><a href="#contato">Entre em contato</a></li>
+          </ul>
+        </nav>
+      </div>
 
+    </div>
+    <div class="content">
+      <main>
+        <section id="bemvindo">
+          <div class="banner">
+
+          </div>
+          <div class="sessao sessao-bemvindo">
+            <h1 class="sessao-title">Seja bem vindo a Doceria</h1>
+            <div class="sessao-banner">
+              <img src="./img/banner3.jpg" alt="">
+            </div>
+            <div class="sessao-texto">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id vitae non reprehenderit deleniti sit quia delectus sint animi eligendi expedita? Praesentium velit molestiae doloribus dolorum necessitatibus earum totam. Accusantium, possimus.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus minus quaerat reprehenderit, tempore deserunt dicta vitae placeat eius, doloribus hic ut? Repellat, tenetur porro consectetur recusandae earum quasi suscipit praesentium.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus minus quaerat reprehenderit, tempore deserunt dicta vitae placeat eius, doloribus hic ut? Repellat, tenetur porro consectetur recusandae earum quasi suscipit praesentium.
+              </p>
+              <a class="btn" href="#">Leia Mais</a>
+            </div>
+          </div>
+        </section>
+        <section id="sobre">
+          <div class="sessao sessao-sobre">
+            <h1 class="sessao-title">Sobre Nós</h1>
+            <div class="sessao-texto">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id vitae non reprehenderit deleniti sit quia delectus sint animi eligendi expedita? Praesentium velit molestiae doloribus dolorum necessitatibus earum totam. Accusantium, possimus.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus minus quaerat reprehenderit, tempore deserunt dicta vitae placeat eius, doloribus hic ut? Repellat, tenetur porro consectetur recusandae earum quasi suscipit praesentium.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus minus quaerat reprehenderit, tempore deserunt dicta vitae placeat eius, doloribus hic ut? Repellat, tenetur porro consectetur recusandae earum quasi suscipit praesentium.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="doces1">
+          <div class="sessao galeria">
+            <h1 class="sessao-title">Doces 1</h1>
+            <ul class="galeria-doces doces1">
+              <li><img src="./img/galeria1.jpg" alt=""></li>
+              <li><img src="./img/galeria2.jpg" alt=""></li>
+              <li><img src="./img/galeria3.jpg" alt=""></li>
+              <li><img src="./img/galeria4.jpg" alt=""></li>
+              <li><img src="./img/galeria5.jpg" alt=""></li>
+            </ul>
+          </div>
+
+        </section>
+
+        <section id="doces2">
+          <div class="sessao galeria">
+            <h1 class="sessao-title">Doces 2</h1>
+            <ul class="galeria-doces doces2">
+              <li><img src="./img/galeria6.jpg" alt=""></li>
+              <li><img src="./img/galeria7.jpg" alt=""></li>
+              <li><img src="./img/galeria8.jpg" alt=""></li>
+            </ul>
+          </div>
+
+        </section>
+
+        <section id="doces3">
+          <div class="sessao galeria">
+            <h1 class="sessao-title">Doces 3</h1>
+            <ul class="galeria-doces doces3">
+              <li><img src="./img/galeria9.jpg" alt=""></li>
+              <li><img src="./img/galeria10.jpg" alt=""></li>
+              <li><img src="./img/galeria11.jpg" alt=""></li>
+              <li><img src="./img/galeria12.jpg" alt=""></li>
+            </ul>
+          </div>
+        </section>
+        <section id="contato">
+          <div class="sessao">
+            <h1 class="sessao-title">Entre em Contato</h1>
+            <form id="form-contato">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" placeholder="Digite seu nome">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Digite seu email">
+              <label for="message">Mensagem</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreava sua mensagem..."></textarea>
+              <input type="submit" class="btn" value="Enviar">
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer>Doceria - Todos os Direitos Reservados</footer>
+    </div>
+  </div>
 </body>
 
 </html>

@@ -31,6 +31,14 @@ Curso HTML5 e CSS3 Técnicas Avançadas - Mateus Battisti (Hora de Codar)
 - [ ] Animações shorthand
 - [ ] Propriedade transition
 - [ ] Propriedade calc
+- [ ] Background Linear Gradient
+- [ ] Background Radial Gradient
+- [ ] Font face
+- [ ] Media Query
+
+### Modulo 4
+
+## <a href=""> DEPLOY - Projeto Doceria </a>
 
 ### Contato
 

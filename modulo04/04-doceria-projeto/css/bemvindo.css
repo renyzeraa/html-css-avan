@@ -1,0 +1,28 @@
+.banner {
+  width: auto;
+  height: 400px;
+  background-image: url('../img/banner2.jpg');
+  object-fit: cover;
+  object-position: top;
+}
+
+.sessao-bemvindo {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+}
+
+.sessao-banner {
+  grid-column: 1/2;
+}
+
+.sessao-banner img {
+  border-radius: 4px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sessao-texto {
+  display: grid;
+  gap: 20px;
+}

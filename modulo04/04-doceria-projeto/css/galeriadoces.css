@@ -1,0 +1,25 @@
+.galeria {
+  max-width: max-content !important;
+}
+.galeria-doces {
+  display: flex;
+  gap: 12px;
+}
+
+.galeria-doces li img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.doces1 li {
+  height: 200px;
+}
+
+.doces2 li {
+  height: 300px;
+}
+
+.doces3 li {
+  height: 250px;
+}

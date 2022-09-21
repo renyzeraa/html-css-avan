@@ -1,0 +1,23 @@
+#form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+}
+
+#message {
+  resize: none;
+}
+
+#form-contato input[type='text'],
+#form-contato input[type='email'],
+textarea {
+  padding: 12px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+}
+
+#contato {
+  justify-items: flex-start;
+}
