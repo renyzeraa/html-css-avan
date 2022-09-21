@@ -15,7 +15,7 @@
   font-size: 18px;
 }
 form {
-  width: 550px;
+  max-width: 550px;
 }
 
 form div {

@@ -52,7 +52,9 @@ Curso HTML5 e CSS3 Técnicas Avançadas - Mateus Battisti (Hora de Codar)
 - [ ] align-items
 - [ ] align-self
 
-## <a href="https://renyzeraa.github.io/html-css-avan/modulo05/"> DEPLOY </a>
+### Modulo 6
+
+## <a href="https://renyzeraa.github.io/html-css-avan/modulo06/06-projeto-host"> DEPLOY - HDC Host </a>
 
 ### Contato
 
