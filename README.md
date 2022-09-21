@@ -42,6 +42,16 @@ Curso HTML5 e CSS3 Técnicas Avançadas - Mateus Battisti (Hora de Codar)
 
 ### Modulo 5
 
+- [ ] Flexbox
+- [ ] flex-grow
+- [ ] flex-shrink e flex-basis
+- [ ] flex-direction
+- [ ] flex-order
+- [ ] flex-shorthand
+- [ ] justify-content
+- [ ] align-items
+- [ ] align-self
+
 ## <a href="https://renyzeraa.github.io/html-css-avan/modulo05/"> DEPLOY </a>
 
 ### Contato
