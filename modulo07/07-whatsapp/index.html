@@ -4,12 +4,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./style.css">
   <title>Whatsapp</title>
 </head>
 
 <body>
+  <div class="container">
+    <div class="sidebar">
+      <header>
+        <div class="user-photo">
+          <img src="./img/avatar1.png" alt="">
+        </div>
+        <div class="icons">
+          <i class="fa-sharp fa-solid fa-spinner"></i>
+          <i class="fa-sharp fa-solid fa-message"></i>
+          <i class="fa-sharp fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </header>
+      <div class="notification">
+        <div class="icon-notification">
+          <i class="fa-sharp fa-solid fa-bell-slash"></i>
+        </div>
+        <div class="message">
+          <p>Receba notificações de novas mensagens</p>
+          <a href="">Ativar notificações na área de trabalho <i class="fa-sharp fa-solid fa-chevron-right"></i> </a>
+        </div>
+      </div>
+      <div class="input">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Procurar ou começar uma nova conversa">
+      </div>
+      <div class="users">
+        <div class="user">
+          <img src="./img/avatar2.png" alt="">
+          <div class="data">
+            <p class="name">
+              Sabrina Matos
+            </p>
+            <p class="user-message">
+              <i class="fa-solid fa-check-double"></i>
+              Oi, tudo bem ?
+            </p>
+            <span class="hora">12:56</span>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./img/avatar4.png" alt="">
+          <div class="data">
+            <p class="name">
+              Maria Vizinha
+            </p>
+            <p class="user-message">
+              <i class="fa-solid fa-check-double"></i>
+              Seu cachorro é muito chato
+            </p>
+            <span class="hora">11:32</span>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./img/avatar3.png" alt="">
+          <div class="data">
+            <p class="name">
+              Bruno Gerente
+            </p>
+            <p class="user-message">
+              Cara, faça o que for melhor...
+            </p>
+            <span class="hora">09:41</span>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./img/avatar4.png" alt="">
+          <div class="data">
+            <p class="name">
+              Luiza Souza
+            </p>
+            <p class="user-message">
 
+              Como foi a reunião ?
+            </p>
+            <span class="hora">17:51</span>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./img/avatar1.png" alt="">
+          <div class="data">
+            <p class="name">
+              Claudio Chefe
+            </p>
+            <p class="user-message">
+              <i class="fa-solid fa-check-double"></i>
+              Temos que conversar
+            </p>
+            <span class="hora">Ontem</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <header>
+        <div class="user">
+          <div class="user-photo">
+            <img src="./img/avatar1.png" alt="">
+          </div>
+          <p class="name">Claudio Chefe</p>
+        </div>
+        <div class="icons">
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-paperclip"></i>
+          <i class="fa-sharp fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </header>
+      <div class="conversation">
+        <div class="bg-image"></div>
+        <div class="chat-messages">
+          <p class="guest-message">Olá, bom dia</p>
+          <p class="user-messages">Temos que conversar</p>
+        </div>
+      </div>
+      <div class="input">
+        <i class="fa-regular fa-face-smile"></i>
+        <input type="text" placeholder="Digite sua mensagem">
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://kit.fontawesome.com/d362c07193.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
