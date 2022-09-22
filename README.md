@@ -56,6 +56,10 @@ Curso HTML5 e CSS3 Técnicas Avançadas - Mateus Battisti (Hora de Codar)
 
 ## <a href="https://renyzeraa.github.io/html-css-avan/modulo06/06-projeto-host"> DEPLOY - HDC Host </a>
 
+### Modulo 7
+
+## <a href="https://renyzeraa.github.io/html-css-avan/modulo07/07-whatsapp"> DEPLOY - Whatsapp </a>
+
 ### Contato
 
 <img align="left" src="https://www.github.com/renyzeraa.png?size=150">
